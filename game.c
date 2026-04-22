@@ -14,10 +14,7 @@
 #include <unistd.h>
 
 //place function prototypes here
-
-
-
-
+void printInitials();
 
 int main(int argc, char *argv[])
 {
@@ -423,3 +420,7 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+void printInitials()
+{
+	printf("C. P. \n");
+}
