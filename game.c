@@ -12,7 +12,7 @@
 #include <unistd.h>
 
 //place function prototypes here
-void cpFun();
+void cpFun(void);
 
 int main(int argc, char *argv[])
 {
@@ -420,7 +420,7 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
-void cpFun()
+void cpFun(void)
 {
 	printf("C. P. \n");
 }
